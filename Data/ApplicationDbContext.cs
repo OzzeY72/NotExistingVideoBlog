@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using NotExistingVideoBlog.Models;
 
 namespace NotExistingVideoBlog.Data
 {
@@ -9,5 +10,7 @@ namespace NotExistingVideoBlog.Data
             : base(options)
         {
         }
+        public DbSet<NotExistingVideoBlog.Models.Video>? Video { get; set; }
+        public DbSet<NotExistingVideoBlog.Models.Author>? Author { get; set; }
     }
 }

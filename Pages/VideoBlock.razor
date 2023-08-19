@@ -1,0 +1,25 @@
+﻿<div class="col main-preview">
+    <img class="main-preview-img" src="@PreviewImgUrl" alt="">
+    <div class="author-block">
+        <a href=""><img class="video-author-img" src="@AuthorImgUrl" alt=""></a>
+        <div class="video-name-block">
+            <h2 class="main-preview-name">
+                <a href="">@VideoName</a>
+            </h2>
+            <p class="video-author-name">
+                <a href="">@AuthorName</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string? PreviewImgUrl { get; set; }
+    [Parameter]
+    public string? AuthorImgUrl { get; set; }
+    [Parameter]
+    public string? VideoName { get; set; }
+    [Parameter]
+    public string? AuthorName { get; set; }
+}

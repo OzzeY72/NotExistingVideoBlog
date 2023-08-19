@@ -1,9 +1,44 @@
 ﻿@page
-@model IndexModel
+@model NotExistingVideoBlog.Pages.IndexModel
+
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Videos";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+<head>
+    <link rel="stylesheet" href="~/Pages/Index.cshtml.css" asp-append-version="true" />
+</head>
+
+<div class="container-fluid recent-videos-text text-center">
+    <h1>Recent Videos</h1>
 </div>
+
+<div class="container recent-videos">
+    <div class="row gy-5">
+        @foreach (var item in Model.Video)
+        {
+            <div class="col-3  main-preview">
+                <a class="main-preview-href" href="/Videos/Details/?id=@item.Id">
+                    <img class="main-preview-img" src="@item.Preview" alt="">
+                 </a>
+                <div class="author-block">
+                    <a class="video-author-href" href="/Authors/Details/?id=@item.AuthorId"><img class="video-author-img" src="@item.Author.AvatarUrl" alt=""></a>
+                    <div class="video-name-block">
+                        <h2 class="main-preview-name">
+                            <a href="/Videos/Details/?id=@item.Id">@item.Title</a>
+                        </h2>
+                        <p class="video-author-name">
+                            <a href="/Authors/Details/?id=@item.AuthorId">@item.Author.Name</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+<p>
+    <a href="/Videos/Create">Create New</a>
+</p>
+

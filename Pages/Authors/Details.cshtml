@@ -1,0 +1,17 @@
+﻿@page
+@model NotExistingVideoBlog.Pages.Authors.DetailsModel
+
+@{
+    ViewData["Title"] = @Model.Author.Name;
+}
+
+<head>
+    <link rel="stylesheet" href="~/Pages/Authors/Details.cshtml.css" asp-append-version="true" />
+</head>
+
+<div class="user-block">
+    <img class="user-avatar" src="@Model.Author.AvatarUrl" alt="">
+    <div class="user-description">
+        <h1 class="user-name">@Model.Author.Name</h1>
+    </div>
+</div>

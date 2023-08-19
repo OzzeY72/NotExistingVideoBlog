@@ -1,0 +1,209 @@
+/* _content/NotExistingVideoBlog/Pages/Authors/Details.cshtml.rz.scp.css */
+.user-block[b-jak03g77lb]
+{
+    display: flex;
+}
+.user-avatar[b-jak03g77lb]
+{
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+}
+.user-description[b-jak03g77lb]{
+    padding-left: 20px;
+    align-self: self-start;
+}
+.user-name[b-jak03g77lb]
+{
+    color: black;
+    font-size: 36px;
+}
+/* _content/NotExistingVideoBlog/Pages/BIndex.cshtml.rz.scp.css */
+.main-preview-img[b-hxem3xl6h0] {
+    width: 200px;
+    height: 100px;
+    border-radius: 6%;
+}
+a[b-hxem3xl6h0] {
+    text-decoration: none;
+}
+.recent-videos[b-hxem3xl6h0] {
+    padding-top: 100px;
+}
+.main-preview-name[b-hxem3xl6h0] {
+    font-size: 16px;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+.video-author-name[b-hxem3xl6h0] {
+    font-size: 12px;
+    color:#808080;
+}
+.video-author-img[b-hxem3xl6h0] {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.author-block[b-hxem3xl6h0] {
+    display: flex;
+    width: 200px;
+}
+.video-name-block[b-hxem3xl6h0]{
+    padding-left: 35px;
+    margin-top: 10px;
+    text-align: left;
+}
+.video-author-href[b-hxem3xl6h0] {
+    align-self: center;
+}
+/* _content/NotExistingVideoBlog/Pages/Index.cshtml.rz.scp.css */
+.main-preview-img[b-qbqcj4thfl] {
+    width: 200px;
+    height: 100px;
+    border-radius: 6%;
+}
+a[b-qbqcj4thfl] {
+    text-decoration: none;
+}
+.recent-videos[b-qbqcj4thfl] {
+    padding-top: 100px;
+}
+.main-preview-name[b-qbqcj4thfl] {
+    font-size: 16px;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+.video-author-name[b-qbqcj4thfl] {
+    font-size: 12px;
+    color:#808080;
+}
+.video-author-img[b-qbqcj4thfl] {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.author-block[b-qbqcj4thfl] {
+    display: flex;
+    width: 200px;
+}
+.video-name-block[b-qbqcj4thfl]{
+    padding-left: 35px;
+    margin-top: 10px;
+    text-align: left;
+}
+.video-author-href[b-qbqcj4thfl] {
+    align-self: center;
+}
+/* _content/NotExistingVideoBlog/Pages/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-s8u630l1d9] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-s8u630l1d9] {
+  color: #0077cc;
+}
+
+.btn-primary[b-s8u630l1d9] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-s8u630l1d9], .nav-pills .show > .nav-link[b-s8u630l1d9] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-s8u630l1d9] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-s8u630l1d9] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-s8u630l1d9] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-s8u630l1d9] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-s8u630l1d9] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/NotExistingVideoBlog/Pages/Videos/Details.cshtml.rz.scp.css */
+.user-block[b-8qom7zjtlm]
+{
+    padding-top: 10px;
+    display: flex;
+}
+.user-avatar[b-8qom7zjtlm]
+{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.user-description[b-8qom7zjtlm]{
+    padding-left: 20px;
+    align-self: self-start;
+}
+.user-name[b-8qom7zjtlm]
+{
+    color: black;
+    font-size: 18px;
+}
+.title-block[b-8qom7zjtlm]
+{
+    padding-top: 10px;
+}
+/* _content/NotExistingVideoBlog/Pages/Videos/Index.cshtml.rz.scp.css */
+.main-preview-img[b-sj5brlp55k] {
+    width: 200px;
+    height: 100px;
+    border-radius: 6%;
+}
+a[b-sj5brlp55k] {
+    text-decoration: none;
+    color: #000;
+}
+.recent-videos[b-sj5brlp55k] {
+    padding-top: 100px;
+}
+.main-preview-name[b-sj5brlp55k] {
+    font-size: 16px;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+.video-author-name[b-sj5brlp55k] {
+    font-size: 12px;
+    color:#808080;
+}
+.video-author-img[b-sj5brlp55k] {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.author-block[b-sj5brlp55k] {
+    display: flex;
+    width: 200px;
+}
+.video-name-block[b-sj5brlp55k]{
+    padding-left: 35px;
+    margin-top: 10px;
+    text-align: left;
+}
+.video-author-href[b-sj5brlp55k] {
+    align-self: center;
+}

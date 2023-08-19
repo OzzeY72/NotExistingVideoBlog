@@ -1,0 +1,57 @@
+﻿@page
+@model NotExistingVideoBlog.Pages.Videos.DeleteModel
+
+@{
+    ViewData["Title"] = Model.Video.Title;
+}
+
+<iframe width="560" height="315" src="@Model.Video.URL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Video</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Video.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Video.Title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Video.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Video.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Video.Preview)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Video.Preview)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Video.URL)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Video.URL)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Video.Author)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Video.Author.Id)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Video.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

@@ -1,0 +1,24 @@
+.user-block[b-8qom7zjtlm]
+{
+    padding-top: 10px;
+    display: flex;
+}
+.user-avatar[b-8qom7zjtlm]
+{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.user-description[b-8qom7zjtlm]{
+    padding-left: 20px;
+    align-self: self-start;
+}
+.user-name[b-8qom7zjtlm]
+{
+    color: black;
+    font-size: 18px;
+}
+.title-block[b-8qom7zjtlm]
+{
+    padding-top: 10px;
+}

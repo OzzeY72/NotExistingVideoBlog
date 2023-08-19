@@ -1,0 +1,37 @@
+.main-preview-img[b-qbqcj4thfl] {
+    width: 200px;
+    height: 100px;
+    border-radius: 6%;
+}
+a[b-qbqcj4thfl] {
+    text-decoration: none;
+}
+.recent-videos[b-qbqcj4thfl] {
+    padding-top: 100px;
+}
+.main-preview-name[b-qbqcj4thfl] {
+    font-size: 16px;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+.video-author-name[b-qbqcj4thfl] {
+    font-size: 12px;
+    color:#808080;
+}
+.video-author-img[b-qbqcj4thfl] {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.author-block[b-qbqcj4thfl] {
+    display: flex;
+    width: 200px;
+}
+.video-name-block[b-qbqcj4thfl]{
+    padding-left: 35px;
+    margin-top: 10px;
+    text-align: left;
+}
+.video-author-href[b-qbqcj4thfl] {
+    align-self: center;
+}

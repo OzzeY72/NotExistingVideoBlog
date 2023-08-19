@@ -1,0 +1,24 @@
+﻿@page
+@model NotExistingVideoBlog.Pages.Videos.DetailsModel
+
+@{
+    ViewData["Title"] = @Model.Video.Title;
+}
+
+<head>
+    <link rel="stylesheet" href="~/Pages/Videos/Details.cshtml.css" asp-append-version="true" />
+</head>
+
+<iframe width="560" height="315" src="@Model.Video.URL" title="@Model.Video.Title" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<div class="title-block">
+    <h1 class="title-title">@Model.Video.Title</h1>
+    <p class="title-description">@Model.Video.Description</p>
+</div>
+
+<div class="user-block">
+    <img class="user-avatar" src="@Model.Author.AvatarUrl" alt="">
+    <div class="user-description">
+        <h1 class="user-name">@Model.Author.Name</h1>
+    </div>
+</div>

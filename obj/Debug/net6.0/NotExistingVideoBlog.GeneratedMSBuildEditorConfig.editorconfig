@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NotExistingVideoBlog
+build_property.RootNamespace = NotExistingVideoBlog
+build_property.ProjectDir = C:\Users\nabac\source\repos\NotExistingVideoBlog\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\nabac\source\repos\NotExistingVideoBlog
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Components/VideoBlock.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xWaWRlb0Jsb2NrLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/VideoBlock.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlkZW9CbG9jay5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/Authors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/Authors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/Authors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/Authors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/Videos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlkZW9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/Videos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlkZW9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/Videos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlkZW9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/Authors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-jak03g77lb
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/BIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQkluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-hxem3xl6h0
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qbqcj4thfl
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-s8u630l1d9
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/Videos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlkZW9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8qom7zjtlm
+
+[C:/Users/nabac/source/repos/NotExistingVideoBlog/Pages/Videos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlkZW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-sj5brlp55k

@@ -1,0 +1,19 @@
+.user-block[b-jak03g77lb]
+{
+    display: flex;
+}
+.user-avatar[b-jak03g77lb]
+{
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+}
+.user-description[b-jak03g77lb]{
+    padding-left: 20px;
+    align-self: self-start;
+}
+.user-name[b-jak03g77lb]
+{
+    color: black;
+    font-size: 36px;
+}

@@ -1,0 +1,19 @@
+﻿.user-block
+{
+    display: flex;
+}
+.user-avatar
+{
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+}
+.user-description{
+    padding-left: 20px;
+    align-self: self-start;
+}
+.user-name
+{
+    color: black;
+    font-size: 36px;
+}

@@ -1,0 +1,53 @@
+﻿@page
+@model NotExistingVideoBlog.Pages.Videos.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Video</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Video.Title" class="control-label"></label>
+                <input asp-for="Video.Title" class="form-control" />
+                <span asp-validation-for="Video.Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Video.Description" class="control-label"></label>
+                <input asp-for="Video.Description" class="form-control" />
+                <span asp-validation-for="Video.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Video.Preview" class="control-label"></label>
+                <input asp-for="Video.Preview" class="form-control" />
+                <span asp-validation-for="Video.Preview" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Video.URL" class="control-label"></label>
+                <input asp-for="Video.URL" class="form-control" />
+                <span asp-validation-for="Video.URL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Video.AuthorId" class="control-label"></label>
+                <select asp-for="Video.AuthorId" class ="form-control" asp-items="ViewBag.AuthorId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

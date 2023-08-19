@@ -1,0 +1,31 @@
+﻿@page
+
+<head>
+    <link rel="stylesheet" href="~/Pages/Index.cshtml.css" asp-append-version="true" />
+</head>
+
+<div class="container-fluid recent-videos-text text-center">
+    <h1>Recent Videos</h1>
+</div>
+
+<div class="container recent-videos">
+    <div class="row gy-5">
+    @for (var i = 1; i < 11; i++)
+    {
+        <div class="col-3  main-preview">
+            <a class="main-preview-href" href=""><img class="main-preview-img" src="https://static.life.ru/publications/2022/12/12/662173687749.024.jpeg" alt=""></a>
+            <div class="author-block">
+                <a class="video-author-href" href=""><img class="video-author-img" src="https://static.life.ru/publications/2022/12/12/662173687749.024.jpeg" alt=""></a>
+                <div class="video-name-block">
+                    <h2 class="main-preview-name">
+                        <a href="">Video name  @i</a>
+                    </h2>
+                    <p class="video-author-name">
+                        <a href="">Author name  @i</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    }
+    </div>
+</div>
